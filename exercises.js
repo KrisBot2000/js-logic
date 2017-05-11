@@ -86,7 +86,13 @@ console.log(isGreaterThan(8,7));
  * The function will return true if the value passed into the function is "true".
  * Console.log your result.
 */
-
+function mustBeTrue(boo){
+	if (boo === true){
+		return true;
+	}
+}
+console.log(mustBeTrue(true));
+console.log(mustBeTrue(false));
 
 
 /*
